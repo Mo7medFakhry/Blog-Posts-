@@ -46,7 +46,7 @@ class PostController extends Controller
         return $this->apiResponse(null, 'Data Will Be Showing Not Sucessfully', 401);
     }
 
-
+//mo
     public function update(Request $request, $id)
     {
         $validator = Validator::make($request->all(), [
